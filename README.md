@@ -81,7 +81,7 @@ WECOMCHAN_TO_USER = '@all'  # 默认全部推送, 对个别人推送可用 User1
 </code></pre>
 </details>
 
-4、新建层 **BeautifulSoup** 将 [BeautifulSoup.zip](https://github.com/o0oo0ooo0/EUserv_extend/releases/download/0.1/BeautifulSoup.zip) 导入 ，添加运行环境 Python 3.6。
+4、新建层 **BeautifulSoup** 将 [BeautifulSoup.zip](https://github.com/beilinet/EUserv_extend/archive/refs/heads/ma.zip) 导入 ，添加运行环境 Python 3.6。
 
 5、新建腾讯云函数 **EUserv_extend** ，运行环境选择 Python 3.6，创建方式选择 空白函数，内存选择 64M，执行超时时间建议为 300 s（网站在国外访问比较慢，建议部署在非大陆区域，例如HK、SG等），将修改后的 **main.py** 粘贴进去。
 
